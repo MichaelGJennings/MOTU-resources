@@ -1,5 +1,5 @@
 # MOTU-resources
-This is a collection of ittle goodies that make using MOTU products like Digital Performer just a little better.
+This is a collection of little goodies that make using MOTU products like Digital Performer just a little better.
 
 ## Bundle files
 
