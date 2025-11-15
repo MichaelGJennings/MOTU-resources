@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Bundles>
+	<Inputs>
+		<Bundle type="RealMonoBundleInput" name="UMC202HD 192k Input 1" default="true" id="4" id_type="UID" uid="294A4B2C-3642-45C9-AC25-D789B73104DC">
+			<Assign type="RealInput" name="UMC202HD 192k Input 1" default="true" index="3001" id_type="CA_Device" instance_id="AppleUSBAudioEngine:BEHRINGER:UMC202HD 192k:144000:1,2" model_id="UMC202HD 192k:1397:0507" model_count="0" dev_rel_index="0" stream_name="UMC202HD 192k Input" stream_rel_index="0"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="UMC202HD 192k Input 2" default="true" id="6" id_type="UID" uid="34295C00-4B05-427E-B7F7-269E142A47BB">
+			<Assign type="RealInput" name="UMC202HD 192k Input 2" default="true" index="3002" id_type="CA_Device" instance_id="AppleUSBAudioEngine:BEHRINGER:UMC202HD 192k:144000:1,2" model_id="UMC202HD 192k:1397:0507" model_count="0" dev_rel_index="1" stream_name="UMC202HD 192k Input" stream_rel_index="1"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 Mic/Line/Hi-Z 1" default="false" id="85" id_type="UID" uid="56237115-7884-42DF-BA6B-31A987E46368">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 1" default="true" index="1001" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="0" stream_name="" stream_rel_index="0"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 Mic/Line/Hi-Z 2" default="false" id="86" id_type="UID" uid="06CF12D6-05B3-4C71-A7C9-210C5BE3A2DE">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 2" default="true" index="1002" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="1" stream_name="" stream_rel_index="1"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 Analog 3" default="false" id="87" id_type="UID" uid="9C0C13C1-4A79-441E-A961-DA802895CDB1">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 3" default="true" index="1003" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="2" stream_name="" stream_rel_index="2"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 Analog 4" default="false" id="88" id_type="UID" uid="10641BB4-54DA-4D4F-B4F5-BEA5B9647FE9">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 4" default="true" index="1004" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="3" stream_name="" stream_rel_index="3"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 Analog 5" default="false" id="89" id_type="UID" uid="CBBA746B-4631-481A-B632-AF4F732F2E09">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 5" default="true" index="1005" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="4" stream_name="" stream_rel_index="4"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 Analog 6" default="false" id="90" id_type="UID" uid="5DBC70F7-8A17-43BC-9102-1CABCCF33946">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 6" default="true" index="1006" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="5" stream_name="" stream_rel_index="5"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 1" default="false" id="91" id_type="UID" uid="06F768C2-101A-42F2-9D3F-F5A210A4C146">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 7" default="true" index="1007" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="6" stream_name="" stream_rel_index="6"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 2" default="false" id="92" id_type="UID" uid="06248B4B-35E7-431E-B0F4-5F87CC817209">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 8" default="true" index="1008" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="7" stream_name="" stream_rel_index="7"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 ADAT 1-2" default="false" id="93" id_type="UID" uid="6DE48F8B-A24C-4DB0-A6EA-402633913430">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 7" default="true" index="1007" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="6" stream_name="" stream_rel_index="6"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 8" default="true" index="1008" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="7" stream_name="" stream_rel_index="7"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 3" default="false" id="94" id_type="UID" uid="91A09BA0-4328-4982-A4F7-580910439F21">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 9" default="true" index="1009" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="8" stream_name="" stream_rel_index="8"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 4" default="false" id="95" id_type="UID" uid="C04692C9-3131-4AC5-925D-C2E9ACA59E8C">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 10" default="true" index="1010" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="9" stream_name="" stream_rel_index="9"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 ADAT 3-4" default="false" id="96" id_type="UID" uid="3B462EF2-26E8-4EAE-8C07-51249C5D9FC4">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 9" default="true" index="1009" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="8" stream_name="" stream_rel_index="8"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 10" default="true" index="1010" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="9" stream_name="" stream_rel_index="9"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 5" default="false" id="97" id_type="UID" uid="4244531C-0C63-404C-96CF-196E5B543008">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 11" default="true" index="1011" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="10" stream_name="" stream_rel_index="10"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 6" default="false" id="98" id_type="UID" uid="5B60FC80-7F69-419B-AFD5-1E269933AAA7">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 12" default="true" index="1012" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="11" stream_name="" stream_rel_index="11"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 ADAT 5-6" default="false" id="99" id_type="UID" uid="07FB8156-76F4-4CD5-9128-0B6C4F907749">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 11" default="true" index="1011" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="10" stream_name="" stream_rel_index="10"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 12" default="true" index="1012" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="11" stream_name="" stream_rel_index="11"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 7" default="false" id="100" id_type="UID" uid="41D600C9-25BB-47BE-8E3A-967D81A1B98E">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 13" default="true" index="1013" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="12" stream_name="" stream_rel_index="12"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 ADAT 8" default="false" id="101" id_type="UID" uid="FD349E23-891D-416B-A15E-03697B5B256B">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 14" default="true" index="1014" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="13" stream_name="" stream_rel_index="13"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 ADAT 7-8" default="false" id="102" id_type="UID" uid="926C689D-8E80-4366-A09F-21113C9824AC">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 13" default="true" index="1013" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="12" stream_name="" stream_rel_index="12"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 14" default="true" index="1014" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="13" stream_name="" stream_rel_index="13"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 S/PDIF" default="false" id="103" id_type="UID" uid="5C98D1B4-E2B2-45FD-AE56-BD78402F392E">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 15" default="true" index="1015" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="14" stream_name="" stream_rel_index="14"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 16" default="true" index="1016" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="15" stream_name="" stream_rel_index="15"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 1" default="false" id="104" id_type="UID" uid="3AF56F92-B211-4932-89FE-28601C40A079">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 17" default="true" index="1017" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="16" stream_name="" stream_rel_index="16"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 2" default="false" id="105" id_type="UID" uid="D2C7B0B5-26F3-4552-813F-387FE56EB961">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 18" default="true" index="1018" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="17" stream_name="" stream_rel_index="17"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 DAW 1-2" default="false" id="106" id_type="UID" uid="B404B45A-D906-4EFD-93F3-06E5018003A2">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 17" default="true" index="1017" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="16" stream_name="" stream_rel_index="16"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 18" default="true" index="1018" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="17" stream_name="" stream_rel_index="17"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 3" default="false" id="107" id_type="UID" uid="9CF73D97-FC46-4FE7-BEA0-D2A959A2C87A">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 19" default="true" index="1019" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="18" stream_name="" stream_rel_index="18"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 4" default="false" id="108" id_type="UID" uid="7A462C64-45E1-4AD4-932A-B38AD848E73E">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 20" default="true" index="1020" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="19" stream_name="" stream_rel_index="19"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 DAW 3-4" default="false" id="109" id_type="UID" uid="D0EF66FC-D31D-4A0A-9325-6DC5362A935E">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 19" default="true" index="1019" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="18" stream_name="" stream_rel_index="18"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 20" default="true" index="1020" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="19" stream_name="" stream_rel_index="19"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 5" default="false" id="110" id_type="UID" uid="B0C212B2-773B-4CA9-81A9-75E0ABD63746">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 21" default="true" index="1021" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="20" stream_name="" stream_rel_index="20"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 6" default="false" id="111" id_type="UID" uid="87940EB0-3493-4CB5-BD5A-8C0959E5AFCA">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 22" default="true" index="1022" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="21" stream_name="" stream_rel_index="21"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 DAW 5-6" default="false" id="112" id_type="UID" uid="3128630B-E5AD-4892-A62A-D5C61DB07590">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 21" default="true" index="1021" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="20" stream_name="" stream_rel_index="20"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 22" default="true" index="1022" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="21" stream_name="" stream_rel_index="21"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 7" default="false" id="113" id_type="UID" uid="9DEBF5C6-5377-4CBB-9B7B-A1F5BE1CE013">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 23" default="true" index="1023" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="22" stream_name="" stream_rel_index="22"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleInput" name="X6 DAW 8" default="false" id="114" id_type="UID" uid="4BE27EFC-9598-44E9-A425-B5500B632033">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 24" default="true" index="1024" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="23" stream_name="" stream_rel_index="23"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 DAW 7-8" default="false" id="115" id_type="UID" uid="EB2A95F1-F446-424C-A580-ABFD68364779">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 23" default="true" index="1023" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="22" stream_name="" stream_rel_index="22"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 24" default="true" index="1024" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="23" stream_name="" stream_rel_index="23"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 Monitor" default="false" id="116" id_type="UID" uid="4FC2F2BB-EEFB-4ACA-8181-2CD4ABA35AF8">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 25" default="true" index="1025" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="24" stream_name="" stream_rel_index="24"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 26" default="true" index="1026" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="25" stream_name="" stream_rel_index="25"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 AUX1" default="false" id="117" id_type="UID" uid="446AFBC4-C5BC-4BF1-A004-B96F1863836F">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 27" default="true" index="1027" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="26" stream_name="" stream_rel_index="26"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 28" default="true" index="1028" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="27" stream_name="" stream_rel_index="27"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 AUX2" default="false" id="118" id_type="UID" uid="34D16CD6-59C7-4C76-8E68-C88E9DBA8DDD">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 29" default="true" index="1029" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="28" stream_name="" stream_rel_index="28"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 30" default="true" index="1030" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="29" stream_name="" stream_rel_index="29"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleInput" name="X6 Talkback" default="false" id="119" id_type="UID" uid="76A9C45E-931E-4F4E-A47B-E77BBCA3E287">
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 31" default="true" index="1031" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="30" stream_name="" stream_rel_index="30"/>
+			<Assign type="RealInput" name="Universal Audio Thunderbolt 32" default="true" index="1032" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="31" stream_name="" stream_rel_index="31"/>
+		</Bundle>
+	</Inputs>
+	<Outputs>
+		<Bundle type="RealStereoBundleOutput" name="Main Out L-R" default="false" id="5" id_type="UID" uid="F58B8538-C011-4051-8090-186359E64DEC">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 23" default="true" index="1023" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="22" stream_name="" stream_rel_index="22"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 24" default="true" index="1024" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="23" stream_name="" stream_rel_index="23"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 Main Stereo" default="false" id="120" id_type="UID" uid="45BE6A2F-CCAB-4FD1-B9F2-BF82AEA5A211">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 1" default="true" index="1001" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="0" stream_name="" stream_rel_index="0"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 2" default="true" index="1002" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="1" stream_name="" stream_rel_index="1"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 Analog 1" default="false" id="121" id_type="UID" uid="FF3C4783-47A3-4B27-8830-BBDB16D5BA4E">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 3" default="true" index="1003" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="2" stream_name="" stream_rel_index="2"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 Analog 2" default="false" id="122" id_type="UID" uid="46B328AA-B0CB-4942-AE96-1D1779954FE3">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 4" default="true" index="1004" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="3" stream_name="" stream_rel_index="3"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 Analog 3" default="false" id="123" id_type="UID" uid="DF259698-8423-4694-8EAE-9F760AEC2281">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 5" default="true" index="1005" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="4" stream_name="" stream_rel_index="4"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 Analog 4" default="false" id="124" id_type="UID" uid="072059E9-7943-434C-BB7D-D4B49BD12049">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 6" default="true" index="1006" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="5" stream_name="" stream_rel_index="5"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 Analog 5" default="false" id="125" id_type="UID" uid="405EA137-1EF5-4DEB-9FDB-BEDE8BD87C0B">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 7" default="true" index="1007" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="6" stream_name="" stream_rel_index="6"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 Analog 6" default="false" id="126" id_type="UID" uid="BC3BCD7E-98E7-44BD-8989-B450780C85AE">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 8" default="true" index="1008" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="7" stream_name="" stream_rel_index="7"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 1" default="false" id="127" id_type="UID" uid="01B460E2-C785-4AFF-A687-92C6FC9721A1">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 9" default="true" index="1009" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="8" stream_name="" stream_rel_index="8"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 2" default="false" id="128" id_type="UID" uid="35C50115-9BE4-4919-97AE-72ADCEB64718">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 10" default="true" index="1010" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="9" stream_name="" stream_rel_index="9"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 ADAT 1-2" default="false" id="129" id_type="UID" uid="B2097D5A-34E2-4D07-995B-8A9741A35751">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 9" default="true" index="1009" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="8" stream_name="" stream_rel_index="8"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 10" default="true" index="1010" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="9" stream_name="" stream_rel_index="9"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 3" default="false" id="130" id_type="UID" uid="4F594354-CD44-4D5E-867F-B4EE5DD27D22">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 11" default="true" index="1011" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="10" stream_name="" stream_rel_index="10"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 4" default="false" id="131" id_type="UID" uid="6DC8327D-EAAD-4D69-A3F4-412169C5E8F5">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 12" default="true" index="1012" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="11" stream_name="" stream_rel_index="11"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 ADAT 3-4" default="false" id="132" id_type="UID" uid="0880A3BC-2DFE-4F22-B669-925685F27AF3">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 11" default="true" index="1011" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="10" stream_name="" stream_rel_index="10"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 12" default="true" index="1012" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="11" stream_name="" stream_rel_index="11"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 5" default="false" id="133" id_type="UID" uid="2399B1DD-2D24-4172-BC6B-5EEFB3D6B12C">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 13" default="true" index="1013" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="12" stream_name="" stream_rel_index="12"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 6" default="false" id="134" id_type="UID" uid="64B93564-DED0-4C23-B2C2-0EC5373D0924">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 14" default="true" index="1014" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="13" stream_name="" stream_rel_index="13"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 ADAT 5-6" default="false" id="135" id_type="UID" uid="4ED0ACA1-0446-4A5A-8684-948D0780C586">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 13" default="true" index="1013" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="12" stream_name="" stream_rel_index="12"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 14" default="true" index="1014" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="13" stream_name="" stream_rel_index="13"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 7" default="false" id="136" id_type="UID" uid="B828A900-5449-43E9-A6E1-CEE71FE18F68">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 15" default="true" index="1015" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="14" stream_name="" stream_rel_index="14"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 ADAT 8" default="false" id="137" id_type="UID" uid="C3EF59CD-38CB-4759-A492-38B3CCE3AB2D">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 16" default="true" index="1016" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="15" stream_name="" stream_rel_index="15"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 ADAT 7-8" default="false" id="138" id_type="UID" uid="387C849C-6932-4278-BF48-D3E6BF004D45">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 15" default="true" index="1015" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="14" stream_name="" stream_rel_index="14"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 16" default="true" index="1016" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="15" stream_name="" stream_rel_index="15"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6  S/PDIF" default="false" id="139" id_type="UID" uid="770E5462-4C8E-401D-B9D4-20873E1778E0">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 17" default="true" index="1017" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="16" stream_name="" stream_rel_index="16"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 18" default="true" index="1018" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="17" stream_name="" stream_rel_index="17"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 1" default="false" id="140" id_type="UID" uid="D905F723-9471-4684-A343-39C6BFCE1118">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 19" default="true" index="1019" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="18" stream_name="" stream_rel_index="18"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 2" default="false" id="141" id_type="UID" uid="9CC87776-F3B7-40A7-A247-B172407F906B">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 20" default="true" index="1020" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="19" stream_name="" stream_rel_index="19"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 DAW 1-2" default="false" id="142" id_type="UID" uid="07B186BA-7C2A-47E6-BF37-C6C694586200">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 19" default="true" index="1019" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="18" stream_name="" stream_rel_index="18"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 20" default="true" index="1020" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="19" stream_name="" stream_rel_index="19"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 3" default="false" id="143" id_type="UID" uid="EB1A0B40-3F3E-4054-87F2-987CA7784C16">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 21" default="true" index="1021" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="20" stream_name="" stream_rel_index="20"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 4" default="false" id="144" id_type="UID" uid="597F538E-DF0B-4F1B-B237-9877C9A23A83">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 22" default="true" index="1022" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="21" stream_name="" stream_rel_index="21"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 DAW 3-4" default="false" id="145" id_type="UID" uid="B8698C29-51EE-4D5E-9625-4C225F2FE104">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 21" default="true" index="1021" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="20" stream_name="" stream_rel_index="20"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 22" default="true" index="1022" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="21" stream_name="" stream_rel_index="21"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 5" default="false" id="146" id_type="UID" uid="B09A5343-C57F-42E6-A50D-D3A6327C3783">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 23" default="true" index="1023" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="22" stream_name="" stream_rel_index="22"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 6" default="false" id="147" id_type="UID" uid="1962B53E-31EC-424A-83A0-F8CF84BB2EAD">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 24" default="true" index="1024" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="23" stream_name="" stream_rel_index="23"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 DAW 5-6" default="false" id="148" id_type="UID" uid="8ACC8765-DB35-4029-B22E-ED629B8A6707">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 23" default="true" index="1023" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="22" stream_name="" stream_rel_index="22"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 24" default="true" index="1024" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="23" stream_name="" stream_rel_index="23"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 7" default="false" id="149" id_type="UID" uid="FE3D9767-ABEA-4FA2-A9F4-F2298C61690E">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 25" default="true" index="1025" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="24" stream_name="" stream_rel_index="24"/>
+		</Bundle>
+		<Bundle type="RealMonoBundleOutput" name="X6 DAW 8" default="false" id="150" id_type="UID" uid="77601A18-1588-4B04-BA37-8A2585C0BE9B">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 26" default="true" index="1026" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="25" stream_name="" stream_rel_index="25"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 DAW 7-8" default="false" id="151" id_type="UID" uid="FA5F90E7-8000-4C46-A850-C78D6924B737">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 25" default="true" index="1025" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="24" stream_name="" stream_rel_index="24"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 26" default="true" index="1026" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="25" stream_name="" stream_rel_index="25"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 CueMix 1" default="false" id="152" id_type="UID" uid="55076CD1-CF93-490C-8149-9FFCE9AF23BF">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 27" default="true" index="1027" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="26" stream_name="" stream_rel_index="26"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 28" default="true" index="1028" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="27" stream_name="" stream_rel_index="27"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 CueMix 2" default="false" id="153" id_type="UID" uid="6A6BFC66-1FAD-40B6-A4BB-9B0A9514FE3C">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 29" default="true" index="1029" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="28" stream_name="" stream_rel_index="28"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 30" default="true" index="1030" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="29" stream_name="" stream_rel_index="29"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 CueMix 3" default="false" id="154" id_type="UID" uid="CEA44F48-54EE-4E9E-8EB2-66F273F9B0BF">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 31" default="true" index="1031" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="30" stream_name="" stream_rel_index="30"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 32" default="true" index="1032" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="31" stream_name="" stream_rel_index="31"/>
+		</Bundle>
+		<Bundle type="RealStereoBundleOutput" name="X6 CueMix 4" default="false" id="155" id_type="UID" uid="6A9D9743-E8DE-45C6-8026-73272A6BFE5E">
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 33" default="true" index="1033" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="32" stream_name="" stream_rel_index="32"/>
+			<Assign type="RealOutput" name="Universal Audio Thunderbolt 34" default="true" index="1034" id_type="CA_Device" instance_id="com_uaudio_driver_UAD2AudioEngine:0" model_id="com_uaudio_driver_UAD2System:Universal Audio Apollo" model_count="0" dev_rel_index="33" stream_name="" stream_rel_index="33"/>
+		</Bundle>
+	</Outputs>
+	<Buses>
+		<Bundle type="BusStereoBundleOutput" name="Reverb" default="false" id="7" id_type="UID" uid="1FE64BF7-38E9-4B9C-AEC0-16C143639D97">
+			<Assign type="BusOutput" name="bus 1" default="true" index="0" id_type="Int"/>
+			<Assign type="BusOutput" name="bus 2" default="true" index="1" id_type="Int"/>
+		</Bundle>
+		<Bundle type="BusStereoBundleOutput" name="Delay" default="false" id="8" id_type="UID" uid="11E49773-723A-4316-98BA-CAA78889E59A">
+			<Assign type="BusOutput" name="bus 3" default="true" index="2" id_type="Int"/>
+			<Assign type="BusOutput" name="bus 4" default="true" index="3" id_type="Int"/>
+		</Bundle>
+		<Bundle type="BusStereoBundleOutput" name="Reverb" default="false" id="156" id_type="UID" uid="7C6974CE-9133-489C-94DF-81E3DB28212B">
+			<Assign type="BusOutput" name="bus 1" default="true" index="0" id_type="Int"/>
+			<Assign type="BusOutput" name="bus 2" default="true" index="1" id_type="Int"/>
+		</Bundle>
+		<Bundle type="BusStereoBundleOutput" name="Delay" default="false" id="157" id_type="UID" uid="8172EBDE-A108-4F86-9ECA-B59C2B4EE76E">
+			<Assign type="BusOutput" name="bus 3" default="true" index="2" id_type="Int"/>
+			<Assign type="BusOutput" name="bus 4" default="true" index="3" id_type="Int"/>
+		</Bundle>
+	</Buses>
+	<Instruments/>
+	<MidiDevices>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">81</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">443</Int>
+				<Int key="can route">0</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/AnalogKeyboard.pdf</String>
+				<String key="manufacturer">Ensoniq</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">TS-10</String>
+				<String key="name">TS-10</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">1</Int>
+				<Int key="supports General MIDI">1</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65534</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">1</Int>
+				<Int key="uniqueID">1591682534</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-271765373</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-2085395319</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 1" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Ensoniq</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Ensoniq/TS-10,12.midnam</Path>
+							<Alias size="360">
+								000000000168000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0f54532d31302c31322e6d69646e
+								616d0000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000007456e736f6e69
+								7100000200392f3a4c6962726172793a
+								417564696f3a4d494449204465766963
+								65733a4d4f54553a456e736f6e69713a
+								54532d31302c31322e6d69646e616d00
+								000e0020000f00540053002d00310030
+								002c00310032002e006d00690064006e
+								0061006d000f001a000c004d00610063
+								0069006e0074006f0073006800200048
+								0044001200374c6962726172792f4175
+								64696f2f4d4944492044657669636573
+								2f4d4f54552f456e736f6e69712f5453
+								2d31302c31322e6d69646e616d000013
+								00012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">TS-10</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Ensoniq/TS-10,12.midnam</Path>
+								<Alias size="360">
+									000000000168000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0f54532d31302c31322e6d69646e
+									616d0000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000007456e736f6e69
+									7100000200392f3a4c6962726172793a
+									417564696f3a4d494449204465766963
+									65733a4d4f54553a456e736f6e69713a
+									54532d31302c31322e6d69646e616d00
+									000e0020000f00540053002d00310030
+									002c00310032002e006d00690064006e
+									0061006d000f001a000c004d00610063
+									0069006e0074006f0073006800200048
+									0044001200374c6962726172792f4175
+									64696f2f4d4944492044657669636573
+									2f4d4f54552f456e736f6e69712f5453
+									2d31302c31322e6d69646e616d000013
+									00012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">-961661222</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 1" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">453</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">439</Int>
+				<Int key="can route">0</Int>
+				<String key="manufacturer">Kawai</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">K1m</String>
+				<String key="name">K1m</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65535</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="uniqueID">428575766</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">2059122218</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">208599530</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 5" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Kawai</String>
+						<File key="com_motu_savedMasterNameFile"/>
+						<String key="com_motu_savedModel">K1m</String>
+						<Dict key="nameConfiguration"/>
+						<Int key="uniqueID">-1327160075</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 5" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">278</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">439</Int>
+				<Int key="can route">0</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/Interface2.tiff</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Lexicon</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">1</Int>
+				<String key="model">PCM-80</String>
+				<String key="name">PCM-80</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">1</Int>
+				<Int key="receives bank select MSB">1</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="receives notes">0</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">1</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">1</Int>
+				<Int key="transmits bank select MSB">1</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="transmits notes">0</Int>
+				<Int key="transmits program changes">1</Int>
+				<Int key="uniqueID">123401786</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-938154520</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-1828050527</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 3" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Lexicon</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Lexicon/PCM-80.midnam</Path>
+							<Alias size="352">
+								000000000160000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0d50434d2d38302e6d69646e616d
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								000000000000000000074c657869636f
+								6e00000200372f3a4c6962726172793a
+								417564696f3a4d494449204465766963
+								65733a4d4f54553a4c657869636f6e3a
+								50434d2d38302e6d69646e616d00000e
+								001c000d00500043004d002d00380030
+								002e006d00690064006e0061006d000f
+								001a000c004d006100630069006e0074
+								006f0073006800200048004400120035
+								4c6962726172792f417564696f2f4d49
+								444920446576696365732f4d4f54552f
+								4c657869636f6e2f50434d2d38302e6d
+								69646e616d00001300012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">PCM-80</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Lexicon/PCM-80.midnam</Path>
+								<Alias size="352">
+									000000000160000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0d50434d2d38302e6d69646e616d
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									000000000000000000074c657869636f
+									6e00000200372f3a4c6962726172793a
+									417564696f3a4d494449204465766963
+									65733a4d4f54553a4c657869636f6e3a
+									50434d2d38302e6d69646e616d00000e
+									001c000d00500043004d002d00380030
+									002e006d00690064006e0061006d000f
+									001a000c004d006100630069006e0074
+									006f0073006800200048004400120035
+									4c6962726172792f417564696f2f4d49
+									444920446576696365732f4d4f54552f
+									4c657869636f6e2f50434d2d38302e6d
+									69646e616d00001300012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">-1153748754</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 3" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">501</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">440</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/Mixer2.tiff</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Mackie</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">1</Int>
+				<String key="model">Mackie Control</String>
+				<String key="name">Mackie Control</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">0</Int>
+				<Int key="receives bank select MSB">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">1</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">0</Int>
+				<Int key="transmits bank select MSB">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">1</Int>
+				<Int key="uniqueID">425132207</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">96662562</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-584898016</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 7" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Mackie</String>
+						<File key="com_motu_savedMasterNameFile"/>
+						<String key="com_motu_savedModel">Mackie Control</String>
+						<Dict key="nameConfiguration"/>
+						<Int key="uniqueID">680350324</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 7" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">643</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">438</Int>
+				<Int key="can route">0</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/IURack.tiff</String>
+				<String key="manufacturer">Yamaha</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">TX81Z</String>
+				<String key="name">TX81Z</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65535</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="uniqueID">2093576047</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-1103185057</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">422967489</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Yamaha</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Yamaha/TX81Z.midnam</Path>
+							<Alias size="344">
+								000000000158000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0c545838315a2e6d69646e616d00
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								0000000000000000000659616d616861
+								000200352f3a4c6962726172793a4175
+								64696f3a4d4944492044657669636573
+								3a4d4f54553a59616d6168613a545838
+								315a2e6d69646e616d00000e001a000c
+								0054005800380031005a002e006d0069
+								0064006e0061006d000f001a000c004d
+								006100630069006e0074006f00730068
+								002000480044001200334c6962726172
+								792f417564696f2f4d49444920446576
+								696365732f4d4f54552f59616d616861
+								2f545838315a2e6d69646e616d000013
+								00012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">TX81Z</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Yamaha/TX81Z.midnam</Path>
+								<Alias size="344">
+									000000000158000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0c545838315a2e6d69646e616d00
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									0000000000000000000659616d616861
+									000200352f3a4c6962726172793a4175
+									64696f3a4d4944492044657669636573
+									3a4d4f54553a59616d6168613a545838
+									315a2e6d69646e616d00000e001a000c
+									0054005800380031005a002e006d0069
+									0064006e0061006d000f001a000c004d
+									006100630069006e0074006f00730068
+									002000480044001200334c6962726172
+									792f417564696f2f4d49444920446576
+									696365732f4d4f54552f59616d616861
+									2f545838315a2e6d69646e616d000013
+									00012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">1062467080</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 9" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">691</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">439</Int>
+				<Int key="can route">0</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/USBInterface.pdf</String>
+				<String key="manufacturer">Roland</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">D-110</String>
+				<String key="name">D-110</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65535</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="uniqueID">-766527421</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">808570535</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">2054372727</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 10" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Roland</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Roland/D-110.midnam</Path>
+							<Alias size="344">
+								000000000158000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0c442d3131302e6d69646e616d00
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000006526f6c616e64
+								000200352f3a4c6962726172793a4175
+								64696f3a4d4944492044657669636573
+								3a4d4f54553a526f6c616e643a442d31
+								31302e6d69646e616d00000e001a000c
+								0044002d003100310030002e006d0069
+								0064006e0061006d000f001a000c004d
+								006100630069006e0074006f00730068
+								002000480044001200334c6962726172
+								792f417564696f2f4d49444920446576
+								696365732f4d4f54552f526f6c616e64
+								2f442d3131302e6d69646e616d000013
+								00012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">D-110</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Roland/D-110.midnam</Path>
+								<Alias size="344">
+									000000000158000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0c442d3131302e6d69646e616d00
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000006526f6c616e64
+									000200352f3a4c6962726172793a4175
+									64696f3a4d4944492044657669636573
+									3a4d4f54553a526f6c616e643a442d31
+									31302e6d69646e616d00000e001a000c
+									0044002d003100310030002e006d0069
+									0064006e0061006d000f001a000c004d
+									006100630069006e0074006f00730068
+									002000480044001200334c6962726172
+									792f417564696f2f4d49444920446576
+									696365732f4d4f54552f526f6c616e64
+									2f442d3131302e6d69646e616d000013
+									00012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">-1404500775</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 10" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">871</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">435</Int>
+				<Int key="can route">0</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/ToneGenerator.tiff</String>
+				<String key="manufacturer">Ensoniq</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">EPS-16+</String>
+				<String key="name">EPS-16+</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65535</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">1</Int>
+				<Int key="uniqueID">1898219943</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">160733453</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-815958389</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 15" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Ensoniq</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Ensoniq/EPS-16.midnam</Path>
+							<Alias size="352">
+								000000000160000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0d4550532d31362e6d69646e616d
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe537ca47000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000007456e736f6e69
+								7100000200372f3a4c6962726172793a
+								417564696f3a4d494449204465766963
+								65733a4d4f54553a456e736f6e69713a
+								4550532d31362e6d69646e616d00000e
+								001c000d004500500053002d00310036
+								002e006d00690064006e0061006d000f
+								001a000c004d006100630069006e0074
+								006f0073006800200048004400120035
+								4c6962726172792f417564696f2f4d49
+								444920446576696365732f4d4f54552f
+								456e736f6e69712f4550532d31362e6d
+								69646e616d00001300012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">EPS-16+</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Ensoniq/EPS-16.midnam</Path>
+								<Alias size="352">
+									000000000160000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0d4550532d31362e6d69646e616d
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe537ca47000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000007456e736f6e69
+									7100000200372f3a4c6962726172793a
+									417564696f3a4d494449204465766963
+									65733a4d4f54553a456e736f6e69713a
+									4550532d31362e6d69646e616d00000e
+									001c000d004500500053002d00310036
+									002e006d00690064006e0061006d000f
+									001a000c004d006100630069006e0074
+									006f0073006800200048004400120035
+									4c6962726172792f417564696f2f4d49
+									444920446576696365732f4d4f54552f
+									456e736f6e69712f4550532d31362e6d
+									69646e616d00001300012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">-903539348</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 15" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">357</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">439</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/Interface2.tiff</String>
+				<String key="manufacturer">ART</String>
+				<String key="model">Multiverb III</String>
+				<String key="name">Multiverb III</String>
+				<Int key="receiveChannels">1</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">1</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="uniqueID">1248880087</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-1793383466</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">460084447</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">ART</String>
+						<File key="com_motu_savedMasterNameFile"/>
+						<String key="com_motu_savedModel">Multiverb III</String>
+						<Dict key="nameConfiguration"/>
+						<Int key="uniqueID">537711276</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 4" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">177</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">714</Int>
+				<String key="manufacturer">M-Audio</String>
+				<String key="model">Oxygen Pro49</String>
+				<String key="name">Oxygen MIDI DIN</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">1</Int>
+				<Int key="transmitChannels">0</Int>
+				<Int key="transmits MTC">1</Int>
+				<Int key="transmits clock">1</Int>
+				<Int key="uniqueID">1401434633</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-1422142625</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-1870543758</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 2" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">M-Audio</String>
+						<File key="com_motu_savedMasterNameFile"/>
+						<String key="com_motu_savedModel">Oxygen Pro49</String>
+						<Dict key="nameConfiguration"/>
+						<Int key="uniqueID">1159727542</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">795</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">439</Int>
+				<Int key="can route">0</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/IURack.tiff</String>
+				<String key="manufacturer">Alesis</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">D4</String>
+				<String key="name">D4</String>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65535</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="uniqueID">862760935</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">1637748736</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-2124589517</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 12" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Alesis</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Alesis/D4.midnam</Path>
+							<Alias size="330">
+								00000000014a000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0944342e6d69646e616d00000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe51222bf000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000006416c65736973
+								000200322f3a4c6962726172793a4175
+								64696f3a4d4944492044657669636573
+								3a4d4f54553a416c657369733a44342e
+								6d69646e616d000e0014000900440034
+								002e006d00690064006e0061006d000f
+								001a000c004d006100630069006e0074
+								006f0073006800200048004400120030
+								4c6962726172792f417564696f2f4d49
+								444920446576696365732f4d4f54552f
+								416c657369732f44342e6d69646e616d
+								001300012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">D4</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Alesis/D4.midnam</Path>
+								<Alias size="330">
+									00000000014a000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0944342e6d69646e616d00000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe51222bf000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000006416c65736973
+									000200322f3a4c6962726172793a4175
+									64696f3a4d4944492044657669636573
+									3a4d4f54553a416c657369733a44342e
+									6d69646e616d000e0014000900440034
+									002e006d00690064006e0061006d000f
+									001a000c004d006100630069006e0074
+									006f0073006800200048004400120030
+									4c6962726172792f417564696f2f4d49
+									444920446576696365732f4d4f54552f
+									416c657369732f44342e6d69646e616d
+									001300012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">-281474</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 12" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">376</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">600</Int>
+				<Int key="can route">0</Int>
+				<String key="manufacturer">Korg</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">Trinity Plus</String>
+				<String key="name">Trinity Plus</String>
+				<Int key="receiveChannels">65022</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives clock">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65535</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits clock">1</Int>
+				<Int key="uniqueID">-2071516546</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-553670229</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-1625885490</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Korg</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Korg/Trinity Plus.midnam</Path>
+							<Alias size="364">
+								00000000016c000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff135472696e69747920506c75732e
+								6d69646e616d00000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								000000000000000000044b6f72670002
+								003a2f3a4c6962726172793a41756469
+								6f3a4d49444920446576696365733a4d
+								4f54553a4b6f72673a5472696e697479
+								20506c75732e6d69646e616d000e0028
+								0013005400720069006e006900740079
+								00200050006c00750073002e006d0069
+								0064006e0061006d000f001a000c004d
+								006100630069006e0074006f00730068
+								002000480044001200384c6962726172
+								792f417564696f2f4d49444920446576
+								696365732f4d4f54552f4b6f72672f54
+								72696e69747920506c75732e6d69646e
+								616d001300012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">Trinity Plus</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Korg/Trinity Plus.midnam</Path>
+								<Alias size="364">
+									00000000016c000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff135472696e69747920506c75732e
+									6d69646e616d00000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									000000000000000000044b6f72670002
+									003a2f3a4c6962726172793a41756469
+									6f3a4d49444920446576696365733a4d
+									4f54553a4b6f72673a5472696e697479
+									20506c75732e6d69646e616d000e0028
+									0013005400720069006e006900740079
+									00200050006c00750073002e006d0069
+									0064006e0061006d000f001a000c004d
+									006100630069006e0074006f00730068
+									002000480044001200384c6962726172
+									792f417564696f2f4d49444920446576
+									696365732f4d4f54552f4b6f72672f54
+									72696e69747920506c75732e6d69646e
+									616d001300012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">728982305</Int>
+					</Properties>
+					<Connection name="MIDI Timepiece AV #2 Port 8" manufacturer="MOTU" model="MIDI Timepiece AV"/>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<String key="manufacturer">XML_SPACE_ENCODE</String>
+				<String key="model">XML_SPACE_ENCODE</String>
+				<String key="name">new external device</String>
+				<Int key="uniqueID">-265290551</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">1330766432</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-1687404259</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-1268402227</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">193</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">583</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/AnalogKeyboard.pdf</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Ensoniq</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">TS-10</String>
+				<String key="name">TS-10</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">65535</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">1</Int>
+				<Int key="receives bank select MSB">1</Int>
+				<Int key="receives clock">1</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">65534</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">1</Int>
+				<Int key="transmits bank select MSB">1</Int>
+				<Int key="transmits clock">1</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">1</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">81306157</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">1701170610</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Ensoniq</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Ensoniq/TS-10,12.midnam</Path>
+							<Alias size="360">
+								000000000168000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0f54532d31302c31322e6d69646e
+								616d0000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe53a1967000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000007456e736f6e69
+								7100000200392f3a4c6962726172793a
+								417564696f3a4d494449204465766963
+								65733a4d4f54553a456e736f6e69713a
+								54532d31302c31322e6d69646e616d00
+								000e0020000f00540053002d00310030
+								002c00310032002e006d00690064006e
+								0061006d000f001a000c004d00610063
+								0069006e0074006f0073006800200048
+								0044001200374c6962726172792f4175
+								64696f2f4d4944492044657669636573
+								2f4d4f54552f456e736f6e69712f5453
+								2d31302c31322e6d69646e616d000013
+								00012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">TS-10</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Ensoniq/TS-10,12.midnam</Path>
+								<Alias size="360">
+									000000000168000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0f54532d31302c31322e6d69646e
+									616d0000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe53a1967000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000007456e736f6e69
+									7100000200392f3a4c6962726172793a
+									417564696f3a4d494449204465766963
+									65733a4d4f54553a456e736f6e69713a
+									54532d31302c31322e6d69646e616d00
+									000e0020000f00540053002d00310030
+									002c00310032002e006d00690064006e
+									0061006d000f001a000c004d00610063
+									0069006e0074006f0073006800200048
+									0044001200374c6962726172792f4175
+									64696f2f4d4944492044657669636573
+									2f4d4f54552f456e736f6e69712f5453
+									2d31302c31322e6d69646e616d000013
+									00012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">608018553</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">457</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">532</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/IURack.tiff</String>
+				<Int key="is drum machine">1</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Alesis</String>
+				<Int key="max receive channels">1</Int>
+				<Int key="max transmit channels">0</Int>
+				<String key="model">D4</String>
+				<String key="name">Alesis D4</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">65534</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">0</Int>
+				<Int key="receives bank select MSB">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">1</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">0</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">0</Int>
+				<Int key="transmits bank select MSB">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">1</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-1002407202</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-178670753</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Alesis</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Alesis/D4.midnam</Path>
+							<Alias size="330">
+								00000000014a000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0944342e6d69646e616d00000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe5252bbf000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000006416c65736973
+								000200322f3a4c6962726172793a4175
+								64696f3a4d4944492044657669636573
+								3a4d4f54553a416c657369733a44342e
+								6d69646e616d000e0014000900440034
+								002e006d00690064006e0061006d000f
+								001a000c004d006100630069006e0074
+								006f0073006800200048004400120030
+								4c6962726172792f417564696f2f4d49
+								444920446576696365732f4d4f54552f
+								416c657369732f44342e6d69646e616d
+								001300012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">D4</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Alesis/D4.midnam</Path>
+								<Alias size="330">
+									00000000014a000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0944342e6d69646e616d00000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe5252bbf000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000006416c65736973
+									000200322f3a4c6962726172793a4175
+									64696f3a4d4944492044657669636573
+									3a4d4f54553a416c657369733a44342e
+									6d69646e616d000e0014000900440034
+									002e006d00690064006e0061006d000f
+									001a000c004d006100630069006e0074
+									006f0073006800200048004400120030
+									4c6962726172792f417564696f2f4d49
+									444920446576696365732f4d4f54552f
+									416c657369732f44342e6d69646e616d
+									001300012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">-901238121</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">371</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">515</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/USBInterface.pdf</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Roland</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">0</Int>
+				<String key="model">D-110</String>
+				<String key="name">D-110</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">0</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">0</Int>
+				<Int key="receives bank select MSB">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">1</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">0</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">0</Int>
+				<Int key="transmits bank select MSB">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">1</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-383774481</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">475801794</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Roland</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Roland/D-110.midnam</Path>
+							<Alias size="344">
+								000000000158000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0c442d3131302e6d69646e616d00
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								00000000000000000006526f6c616e64
+								000200352f3a4c6962726172793a4175
+								64696f3a4d4944492044657669636573
+								3a4d4f54553a526f6c616e643a442d31
+								31302e6d69646e616d00000e001a000c
+								0044002d003100310030002e006d0069
+								0064006e0061006d000f001a000c004d
+								006100630069006e0074006f00730068
+								002000480044001200334c6962726172
+								792f417564696f2f4d49444920446576
+								696365732f4d4f54552f526f6c616e64
+								2f442d3131302e6d69646e616d000013
+								00012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">D-110</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Roland/D-110.midnam</Path>
+								<Alias size="344">
+									000000000158000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0c442d3131302e6d69646e616d00
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									00000000000000000006526f6c616e64
+									000200352f3a4c6962726172793a4175
+									64696f3a4d4944492044657669636573
+									3a4d4f54553a526f6c616e643a442d31
+									31302e6d69646e616d00000e001a000c
+									0044002d003100310030002e006d0069
+									0064006e0061006d000f001a000c004d
+									006100630069006e0074006f00730068
+									002000480044001200334c6962726172
+									792f417564696f2f4d49444920446576
+									696365732f4d4f54552f526f6c616e64
+									2f442d3131302e6d69646e616d000013
+									00012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">1095006552</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">170</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">401</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/Mixer2.tiff</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Mackie</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">1</Int>
+				<String key="model">Mackie Control</String>
+				<String key="name">Mackie Control</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">65534</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">0</Int>
+				<Int key="receives bank select MSB">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">1</Int>
+				<Int key="transmitChannels">1</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">0</Int>
+				<Int key="transmits bank select MSB">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">1</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">867356905</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">1207305207</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Mackie</String>
+						<File key="com_motu_savedMasterNameFile"/>
+						<String key="com_motu_savedModel">Mackie Control</String>
+						<Dict key="nameConfiguration"/>
+						<Int key="uniqueID">211134156</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">543</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">484</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/ToneGenerator.tiff</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">1</Int>
+				<String key="manufacturer">Ensoniq</String>
+				<Int key="max receive channels">16</Int>
+				<Int key="max transmit channels">16</Int>
+				<String key="model">EPS-16</String>
+				<String key="name">EPS 16+</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">0</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">0</Int>
+				<Int key="receives bank select MSB">0</Int>
+				<Int key="receives clock">1</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">0</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">0</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">0</Int>
+				<Int key="transmits bank select MSB">0</Int>
+				<Int key="transmits clock">1</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">0</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">1921383428</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">-1728641195</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Ensoniq</String>
+						<File key="com_motu_savedMasterNameFile"/>
+						<String key="com_motu_savedModel">EPS-16</String>
+						<Dict key="nameConfiguration"/>
+						<Int key="uniqueID">1496383621</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+		<Device direct="false" fake="false">
+			<Properties>
+				<Int key="apple.midi.audiomidisetup.widget.xPosition">288</Int>
+				<Int key="apple.midi.audiomidisetup.widget.yPosition">482</Int>
+				<String key="image">/System/Library/Audio/MIDI Devices/Generic/Images/Interface2.tiff</String>
+				<Int key="is drum machine">0</Int>
+				<Int key="is effect unit">0</Int>
+				<Int key="is mixer">0</Int>
+				<Int key="is sampler">0</Int>
+				<String key="manufacturer">Yamaha</String>
+				<Int key="max receive channels">8</Int>
+				<Int key="max transmit channels">0</Int>
+				<String key="model">TX81Z</String>
+				<String key="name">TX81Z</String>
+				<Int key="pan disrupts stereo">0</Int>
+				<Int key="receiveChannels">255</Int>
+				<Int key="receives MTC">0</Int>
+				<Int key="receives bank select LSB">0</Int>
+				<Int key="receives bank select MSB">0</Int>
+				<Int key="receives clock">0</Int>
+				<Int key="receives notes">1</Int>
+				<Int key="receives program changes">1</Int>
+				<Int key="supports General MIDI">0</Int>
+				<Int key="supports MMC">0</Int>
+				<Int key="transmitChannels">0</Int>
+				<Int key="transmits MTC">0</Int>
+				<Int key="transmits bank select LSB">0</Int>
+				<Int key="transmits bank select MSB">0</Int>
+				<Int key="transmits clock">0</Int>
+				<Int key="transmits notes">1</Int>
+				<Int key="transmits program changes">1</Int>
+			</Properties>
+			<Entity direct="false" fake="false">
+				<Properties>
+					<Int key="embedded">0</Int>
+					<Int key="maxSysExSpeed">3125</Int>
+					<String key="name">Port 1</String>
+					<Int key="protocol">1</Int>
+					<Int key="uniqueID">-383763596</Int>
+				</Properties>
+				<Source direct="false" software="false" fake="false">
+					<Properties>
+						<Int key="uniqueID">1322470048</Int>
+					</Properties>
+				</Source>
+				<Destination direct="false" software="false" fake="false">
+					<Properties>
+						<String key="com_motu_savedManufacturer">Yamaha</String>
+						<File key="com_motu_savedMasterNameFile">
+							<Path type="SystemMidiDevices">/MOTU/Yamaha/TX81Z.midnam</Path>
+							<Alias size="344">
+								000000000158000200000c4d6163696e
+								746f7368204844000000000000000000
+								000000000000e4c61f9d42440001ffff
+								ffff0c545838315a2e6d69646e616d00
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								00000000000000000000000000000000
+								0000ffffffffe4b0f12c000000000000
+								0000ffffffff00000a20637500000000
+								0000000000000000000659616d616861
+								000200352f3a4c6962726172793a4175
+								64696f3a4d4944492044657669636573
+								3a4d4f54553a59616d6168613a545838
+								315a2e6d69646e616d00000e001a000c
+								0054005800380031005a002e006d0069
+								0064006e0061006d000f001a000c004d
+								006100630069006e0074006f00730068
+								002000480044001200334c6962726172
+								792f417564696f2f4d49444920446576
+								696365732f4d4f54552f59616d616861
+								2f545838315a2e6d69646e616d000013
+								00012f00ffff0000
+							</Alias>
+						</File>
+						<String key="com_motu_savedModel">TX81Z</String>
+						<Dict key="nameConfiguration">
+							<File key="master">
+								<Path type="SystemMidiDevices">/MOTU/Yamaha/TX81Z.midnam</Path>
+								<Alias size="344">
+									000000000158000200000c4d6163696e
+									746f7368204844000000000000000000
+									000000000000e4c61f9d42440001ffff
+									ffff0c545838315a2e6d69646e616d00
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									00000000000000000000000000000000
+									0000ffffffffe4b0f12c000000000000
+									0000ffffffff00000a20637500000000
+									0000000000000000000659616d616861
+									000200352f3a4c6962726172793a4175
+									64696f3a4d4944492044657669636573
+									3a4d4f54553a59616d6168613a545838
+									315a2e6d69646e616d00000e001a000c
+									0054005800380031005a002e006d0069
+									0064006e0061006d000f001a000c004d
+									006100630069006e0074006f00730068
+									002000480044001200334c6962726172
+									792f417564696f2f4d49444920446576
+									696365732f4d4f54552f59616d616861
+									2f545838315a2e6d69646e616d000013
+									00012f00ffff0000
+								</Alias>
+							</File>
+						</Dict>
+						<Int key="uniqueID">1573985262</Int>
+					</Properties>
+				</Destination>
+			</Entity>
+		</Device>
+	</MidiDevices>
+</Bundles>
