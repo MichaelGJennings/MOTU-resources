@@ -8,4 +8,4 @@ I found a nice way to set up the bundle for a Universal Audio Apollo x6 interfac
 
 Press shift-U in the Tracks window, select <em>Import bundle…</em> and locate the <em>UAD-Apollo-X6</em> .bundle file.
 
-![Importing bundle files](https://raw.githubusercontent.com/MichaelGJennings/MOTU-resources/main/assets/importing-bundles.jpg)
+![Importing bundle files](https://github.com/MichaelGJennings/MOTU-resources/blob/main/assets/importing-bundles.png)
